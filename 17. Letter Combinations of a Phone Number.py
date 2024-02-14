@@ -1,3 +1,7 @@
+"""
+The intuition behind this solution is to get all the possible combinations possible thus a backtracking algorithm would be perfect
+for this situation 
+"""
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if digits == "":
