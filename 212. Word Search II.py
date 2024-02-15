@@ -1,3 +1,7 @@
+"""
+The first thing that came to my mind when reading the description is that the algorithm should be a tree like algorithm with all the
+possible words thus I thought of the Trie algorithm.
+"""
 class TrieNode:
     def __init__(self):
         self.children = {}
