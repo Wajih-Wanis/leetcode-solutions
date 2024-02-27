@@ -1,3 +1,4 @@
+#Direct implementation of Kadane algorithm
 from collections import List
 """
 The idea of this solution is to iterate once through the table and calculating the sum while getting rid of any negative prefix value.
