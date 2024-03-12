@@ -1,3 +1,4 @@
+#The idea of this solution is to check for words where there is only a one letter change untill the goal is reached
 class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: List[str]) -> int:
         visited = set()
